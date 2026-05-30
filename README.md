@@ -1,84 +1,102 @@
 # 🌊 Underwater Remotely Operated Vehicle (ROV)
 
-Low-Cost Modular ROV for Shallow Water Exploration
+## Low-Cost Modular ROV for Shallow Water Exploration
 
-This project involves the design and development of a cost-effective, small-scale Underwater Remotely Operated Vehicle (ROV) capable of operating in pools, lakes, and shallow coastal waters. The ROV serves as an educational and research platform for learning marine robotics, control systems, buoyancy management, and underwater instrumentation.
+This project focuses on the design and development of a **cost-effective, small-scale Underwater Remotely Operated Vehicle (ROV)** capable of operating in pools, lakes, and shallow coastal waters.
 
-🎯 Project Objective
+The ROV serves as an educational and research platform for understanding:
 
-Design a modular, low-cost underwater ROV
+* Marine robotics
+* Control systems
+* Buoyancy management
+* Underwater instrumentation
+* Sensor integration
 
-Achieve 3D maneuverability using multiple thrusters
+The system is designed to be modular, scalable, and easy to modify for different underwater applications.
 
-Provide hands-on experience in marine robotics & instrumentation
+---
 
-Enable underwater inspection and sensor testing
+# 🎯 Project Objective
 
-⚙️ Key Features
+* Design a modular and low-cost underwater ROV
+* Achieve 3D maneuverability using multiple thrusters
+* Provide practical exposure to marine robotics and instrumentation
+* Enable underwater inspection and environmental monitoring
+* Support sensor testing and research applications
 
-🧩 Modular PVC frame – lightweight, durable, and easy to modify
+---
 
-🚀 Four-thruster configuration – forward/reverse, turning, diving, ascending
+# ⚙️ Key Features
 
-⚖️ Neutral buoyancy control using floats and ballast
+* 🧩 Modular PVC frame — lightweight, durable, and easy to modify
+* 🚀 Four-thruster configuration for multidirectional movement
+* ⚖️ Neutral buoyancy control using floats and ballast
+* 🔌 Tethered communication for reliable power and control
+* 🔧 Expandable architecture for cameras, lights, and sensors
+* 🌊 Stable operation in shallow underwater environments
 
-🔌 Tethered operation for reliable power and control
+---
 
-🔧 Expandable design for cameras, lights, and sensors
+# 🧰 Hardware Components
 
-🧰 Hardware Components
+| Component                  | Description                     |
+| -------------------------- | ------------------------------- |
+| PVC Pipes & Joints         | ROV structural frame            |
+| DC Thrusters (×4)          | Underwater propulsion           |
+| Motor Drivers / ESCs       | Thruster control                |
+| Microcontroller            | Arduino or equivalent           |
+| Tether Cable               | Power and control communication |
+| Buoyancy Floats            | Neutral buoyancy maintenance    |
+| Ballast Weights            | Stability and depth balancing   |
+| Waterproof Enclosures      | Electronics protection          |
+| Power Supply               | Surface-based DC power          |
+| Toggle Switches / Joystick | Manual control system           |
 
-PVC pipes & joints (ROV frame)
+---
 
-4 × DC thrusters (underwater motors)
+# 🎥 Project Demo
 
-Motor drivers / ESCs
+[▶ Click Here to Watch the Demo](https://drive.google.com/file/d/1iPZeGpiyayyQgy8dcacOkoleV4N2yBzy/view?usp=sharing)
 
-Microcontroller (Arduino / equivalent)
+---
 
-Tether cable (power + control signals)
+# 🔧 Optional Payloads
 
-Buoyancy floats
+* Underwater Camera
+* LED Lighting System
+* Temperature Sensor
+* Turbidity Sensor
+* Depth Sensor
+* IMU (Inertial Measurement Unit)
 
-Ballast weights
+---
 
-Waterproof enclosures
+# 🧠 Working Principle
 
-Power supply (surface-based)
+1. The surface control unit sends movement commands through the tether cable.
 
-Toggle switches / joystick controller
+2. The thrusters generate directional thrust for movement control.
 
-Optional Payloads
+3. The buoyancy system maintains stable underwater positioning.
 
-Underwater camera
+4. Optional sensors and cameras provide environmental data and real-time monitoring.
 
-LED lighting module
+---
 
-Sensors: temperature, turbidity, depth, IMU
+# 🧭 Capabilities
 
-🧠 Working Principle
+* Forward and reverse movement
+* Turning and directional control (Yaw)
+* Vertical ascent and descent
+* Underwater surveillance
+* Environmental parameter monitoring
+* Inspection of submerged structures
 
-Surface controller sends commands via tether
+---
 
-Thrusters generate thrust for multi-directional movement
+# 🏗️ System Overview
 
-Buoyancy system maintains stable underwater operation
-
-Optional sensors and camera provide real-time monitoring
-
-🧭 Capabilities
-
-Forward, reverse, turning (yaw)
-
-Vertical ascent & descent
-
-Underwater surveillance
-
-Sensor-based environmental monitoring
-
-Inspection of submerged structures
-
-🏗️ System Overview
+```text
 Surface Control Unit
         │
    Tether Cable
@@ -88,27 +106,51 @@ ROV (PVC Frame)
  ├── Buoyancy & Ballast
  ├── Control Electronics
  └── Sensors / Camera (Optional)
+```
 
-📈 Applications
+---
 
-Educational marine robotics labs
+# 📈 Applications
 
-Underwater inspection & monitoring
+* Educational marine robotics laboratories
+* Underwater inspection and monitoring
+* Aquatic sensor testing
+* Environmental monitoring systems
+* Prototype validation and research projects
 
-Sensor testing in aquatic environments
+---
 
-Research & prototype validation
+# 🔮 Future Enhancements
 
-🔮 Future Enhancements
+* Depth-sensor-based automatic stabilization
+* Advanced underwater camera system
+* High-intensity waterproof lighting
+* Autonomous navigation (AUV upgrade)
+* Environmental data logging and cloud integration
+* Wireless surface communication support
 
-Depth-sensor-based stabilization
+---
 
-Improved camera & lighting system
+# 🎯 Learning Outcomes
 
-Autonomous navigation (AUV upgrade)
+* Understanding underwater robotics systems
+* Practical implementation of buoyancy and stability concepts
+* Thruster-based motion control
+* Waterproof electronics integration
+* Sensor interfacing and marine instrumentation
+* Mechanical frame design and prototyping
 
-Environmental data logging
+---
 
-📌 Conclusion
+# 📌 Conclusion
 
-This project demonstrates a practical and scalable underwater robotics platform using simple materials and electronics. It provides strong foundational knowledge in marine systems, control, and instrumentation, with scope for future expansion into advanced underwater robotics.
+This project demonstrates a practical and scalable underwater robotics platform developed using simple materials, embedded electronics, and modular design principles.
+
+The ROV provides strong foundational knowledge in:
+
+* Marine robotics
+* Control systems
+* Underwater instrumentation
+* Mechanical and electrical integration
+
+The platform also offers excellent scope for future expansion into advanced underwater robotic systems and autonomous underwater vehicles (AUVs).
