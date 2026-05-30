@@ -1,4 +1,4 @@
-# 🌊 Underwater Remotely Operated Vehicle (ROV)
+#  Underwater Remotely Operated Vehicle (ROV)
 
 ## Low-Cost Modular ROV for Shallow Water Exploration
 
